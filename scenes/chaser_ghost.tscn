@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://lrcnaijpco7g"]
+
+[ext_resource type="PackedScene" uid="uid://g4ajlewy4hoh" path="res://scenes/ghost.tscn" id="1_a030g"]
+[ext_resource type="Script" uid="uid://beivk67ey6py8" path="res://scripts/chaser_ghost.gd" id="2_v5es7"]
+
+[node name="ChaserGhost" instance=ExtResource("1_a030g")]
+script = ExtResource("2_v5es7")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://6v3k6q8ty3ag"]
+
+[ext_resource type="PackedScene" uid="uid://g4ajlewy4hoh" path="res://scenes/ghost.tscn" id="1_axtuc"]
+[ext_resource type="Script" uid="uid://dsc3dh65rdhtv" path="res://scripts/patrol_ghost.gd" id="2_l66o1"]
+
+[node name="PatrolGhost" instance=ExtResource("1_axtuc")]
+script = ExtResource("2_l66o1")
