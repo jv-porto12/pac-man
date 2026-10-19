@@ -1,6 +1,5 @@
 extends Node2D
 
-
 @onready var pellets: Node2D = $Pellets
 @onready var player: CharacterBody2D = $Player
 @onready var win_label: Label = $WinLabel
